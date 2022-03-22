@@ -62,4 +62,6 @@ SELECT COUNT(Sname) FROM salespeople WHERE City LIKE 'Newyork';
 
 SELECT COUNT(Sname) FROM salespeople WHERE City LIKE 'London' OR City LIKE 'Paris';
 
+Use orders ;
+
 SELECT Snum, Odate, COUNT(*) FROM orders GROUP BY Odate, Snum;
